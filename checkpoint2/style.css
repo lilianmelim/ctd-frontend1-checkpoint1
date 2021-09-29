@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
+*{
+
+padding: 0px;
+margin: 0px;
+
+}
+
+header {
+
+box-sizing: border-box;
+width: 100%;
+height: 100px;
+font-family: "Bebas Neue", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 25px;
+background-color: darkslateblue;
+opacity: 95%;
+color: white;
+text-align: center;
+padding: 20px;
+z-index: 100;
+position: fixed;
+top: 0px;
+
+}
+
+
+
+body{
+
+height: 100%;
+background-image: url('https://cultura.culturamix.com/blog/wp-content/gallery/sp-5/se_saopaulo0741_0.jpg');
+background-size: 130%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+font-family: "Roboto", Arial, Helvetica, sans-serif;
+
+
+}
+
+
+main{
+
+box-sizing: border-box;
+width: 1280px;
+height: 185px;
+background-color: white;
+opacity: 70%;
+z-index: 3;
+position: relative;
+margin-top: 150px;
+margin-left: auto;
+margin-right: auto;
+padding: 20px;
+
+}
+
+.texto{
+
+font-size: 22px;
+text-align: justify;
+
+}
+
+b{
+
+color: mediumblue;
+
+}
+
+
+.video{
+
+width: 1280px;
+height: 720px;
+z-index: 4;
+position: relative;
+margin-top: 30px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.topicos{
+
+background-color: white;
+box-sizing: border-box;
+opacity: 70%;
+width: 1280px;
+height: 200px;
+padding: 20px;
+z-index: 5;
+margin-top: 30px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.titulo-lista{
+
+font-family: "Bebas Neue";
+font-family: 40px;
+color: mediumblue;
+
+}
+
+
+.list{
+
+font-family: 'Roboto';
+font-size: 22px;
+
+}
+
+footer{
+
+box-sizing: border-box;
+background-color: white;
+opacity: 60%;
+width: 1280px;
+height: 100px;
+padding: 20px;
+z-index: 6;
+margin-top: 30px;
+margin-left: auto;
+margin-right: auto;
+text-align: right;
+
+}
+
